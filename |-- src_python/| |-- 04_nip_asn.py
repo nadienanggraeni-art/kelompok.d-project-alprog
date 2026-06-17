@@ -79,7 +79,7 @@ def tampilkan_tanggal_lahir(nip):
         print("Tanggal Lahir ASN:", tanggal, nama_bulan, tahun)
 
 
-# Memanggil fungsi
+# Skenario 1: (Normal)
 tampilkan_tanggal_lahir("200707052024012002")
 
 
@@ -124,7 +124,7 @@ def tampilkan_tanggal_lahir(nip):
         print("Tanggal Lahir ASN:", tanggal, nama_bulan, tahun)
 
 
-# Memanggil fungsi
+# Skenario 2: (digit kurang)
 tampilkan_tanggal_lahir("20070705")
 
 
@@ -174,7 +174,7 @@ def tampilkan_tanggal_lahir(nip):
     print("Tanggal Lahir ASN:", tanggal, nama_bulan, tahun)
 
 
-# Memanggil fungsi
+# Skenario 3: (tanggal tidak valid)
 tampilkan_tanggal_lahir("200705352019031010")
 
 
